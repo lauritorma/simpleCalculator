@@ -42,7 +42,6 @@ export default function App() {
       </View>
       <View style={{flex: 0.2, margin: 10}}>
       <Button
-      
       title='-'
       onPress={reductPressed}
       />
