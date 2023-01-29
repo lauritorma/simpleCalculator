@@ -67,7 +67,7 @@ export default function App() {
       />
       </View>
       </View>
-      <View style={{flex: 1, margin: 10}}>
+      <View style={{flex: 1, margin: 10, justifyContent: 'center'}}>
       <Text>History</Text>
       <FlatList
         data={history}
