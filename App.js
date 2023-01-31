@@ -17,7 +17,7 @@ export default function App() {
     }
     else{
     setResult(parseInt(first) + parseInt(second))
-    setHistory([...history, {key: first + '+' + second + '=' + (parseInt(first) + parseInt(second))}])
+    setHistory([{key: first + '+' + second + '=' + (parseInt(first) + parseInt(second))}, ...history])
     setFirst('');
     setSecond('');
     }
